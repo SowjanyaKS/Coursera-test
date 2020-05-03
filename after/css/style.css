@@ -1,0 +1,43 @@
+*{
+		box-sizing: border-box;
+}
+
+header{
+ 	font-color: black;
+ 	font-size: 25px;
+ 	font-weight: 600;
+ 	font-family: Verdana;
+ 	text-align: center;
+ 	margin: 20px;
+ }	
+
+section{
+  border: 1px solid black;
+  background-color: grey;
+  
+    }
+
+h1{
+	margin:0;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    width: 25%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    float:right;
+
+}
+
+ #class1{
+
+background-color: orange;
+}
+
+#class2{
+background-color: green;
+}	
+
+#class3{
+background-color: pink;
+}

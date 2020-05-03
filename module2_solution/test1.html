@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment solution for module 2</title>
+<link rel="stylesheet" href="style.css">
+<style>
+
+p{
+	font-family: Verdana;
+	font-size: 15px;
+  width:90%;
+  margin-left: auto;
+  margin-right:auto;
+	clear:right;  
+}
+
+.row{
+  width:100%;
+}
+
+/*Desktop view*/
+@media(min-width: 992px){
+  .desktop = .col-4;
+}       
+
+/*Tablet view*/
+@media(min-width: 768px) and (max-width:991px){
+  .tablet = .col-6;
+}       
+
+/*Mobile view*/
+@media(max-width: 767px){
+  .mobile = .col-12;
+}       
+
+</style>
+</head>
+<body>
+  <header>Our menu</header>
+  <div class="row">
+    <div class="desktop tablet mobile">
+      <section>
+        <h1 id="class1">Salad</h1>
+        <p>A salad is a dish consisting of a mixture of small pieces of food, usually vegetables or fruit.However, different varieties of salad may contain virtually any type of ready-to-eat food. Salads are typically served at room temperature or chilled, with notable exceptions such as south German.
+        </p>
+      </section>
+    </div>
+  
+    <div class="desktop tablet mobile">
+      <section>
+        <h1 id="class2">Pasta</h1>
+        <p>Pasta is a type of food typically made from an unleavened dough of wheat flour mixed with water or eggs, and formed into sheets or other shapes, then cooked by boiling or baking. Today there are only a few traditional pasta producers (pastifici) in Italy, the majority of pasta is manufactured industrially.
+        </p>
+      </section>
+    </div>
+  
+    <div class="desktop mobile">
+      <section>
+        <h1 id="class3">Pizza</h1>
+        <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients baked at a high temperature, traditionally in a wood-fired oven.A small pizza is sometimes called a pizzetta which is nothing but pizzo.
+        </p>
+      </section>
+    </div>
+  </div>
+</body>
+</html>

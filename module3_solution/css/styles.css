@@ -1,0 +1,174 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	
+	font-family: 'Oxygen', sans-serif;
+}
+/*Navigation Bar*/
+#header-nav{
+	background-color: #f6b319;
+	border-radius:0;
+	border:0;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	font-weight: 800;
+	color: #557c3e;
+	margin: 0;
+	font-size: 1.5em;
+}
+
+.navbar-nav{
+	margin: -1px -15px;
+}
+#collapsable-nav #nav-list{
+	border: 2px solid #61122f;
+	background-color: grey;
+}
+
+#nav-list{
+	text-align: center;
+}
+
+#nav-list li{
+	color: #61122f;
+	line-height: 1.8;
+	font-weight: 600;
+}
+
+#nav-list hr{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+#nav-list hr{
+	width: 100%;
+	color: #61122f;
+}
+
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+/*End of Navigation bar*/
+
+/*Main Conent*/
+
+#main-content h3{
+	font-size: 20px;
+	text-align: center;
+	vertical-align: center;
+}
+h2{
+	color: black;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+/*#first h3{
+	margin: 25px;
+}*/
+
+#Chicken, #Beef, #Sushi{
+	border:  2px solid #3F0C1F;
+	background-color: #61122f;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+/*Large devices only*/
+@media (min-width: 1200px){
+#main-content{
+	margin: 2%;
+ }
+ #main-content #Chicken, #main-content #Beef
+ {
+ 	margin-bottom: 2%;
+ }
+ #main-content #Sushi{
+ 	margin-bottom: 0;
+ }
+}
+
+/*Medium devices only*/
+@media(min-width: 992px) and (max-width: 1199px){
+#main-content #Chicken{
+	margin-top: -30px;
+}
+#main-content{
+	margin: 5%;
+ }
+#main-content #Chicken, #main-content #Beef
+ {
+ 	margin-bottom: 5%;
+ }
+ #main-content #Sushi{
+ 	margin-bottom: 0;
+ }
+
+}
+
+
+/*Small devices only*/
+@media(min-width: 768px) and (max-width: 991px){
+	#main-content #Chicken{
+	margin-top: -30px;
+}
+#main-content{
+	margin: 7%;
+ }
+ #main-content #Chicken, #main-content #Beef
+ {
+ 	margin-bottom: 7%;
+ }	
+ #main-content #Sushi{
+ 	margin-bottom: 0;
+ }
+
+}
+
+/*Extra Small Devices Only*/
+@media(max-width: 767px){
+
+h2{
+margin-top: 30px;
+margin-bottom: 50px ;
+}
+
+#main-content #Chicken{
+	margin-top: -30px;
+}
+#main-content{
+	margin: 10%;
+ }
+ #main-content #Chicken, #main-content #Beef
+ {
+ 	margin-bottom: 10%;
+ }
+
+ #main-content #Sushi{
+ 	margin-bottom: 0;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*End of Main Content*/
+
